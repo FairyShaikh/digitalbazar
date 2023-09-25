@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 100vh;
+    background: url(../images/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);
+}
+.container{
+    border-radius: 30px;
+    background-color: white;
+    border-top: 6px solid hsl(356, 65%, 63%);
+    width: 1266px;
+    height: 559px;
+    position: absolute;
+    background-position: center;
+    left: 110px;
+    top: 50px;
+}
+.row g-3, h1, label{
+    color: black;
+}
+.form-label{
+    font-weight: bold;
+    font-size: large;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#link:hover{
+    color: orangered;
+}
+#btn{
+    margin-bottom: 7%;
+}

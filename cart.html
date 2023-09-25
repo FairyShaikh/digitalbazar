@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Bazar</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="e-mart (1).png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">             
+
+  <!-- 
+    Icon Link 
+  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    .Cart-heading{
+        margin-top: 7%;
+        align-items: center;
+        color: black;
+        font-size: 28px;
+    }
+    table{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .table-head{
+        color: white;
+        background: linear-gradient(orangered, rgb(245, 70, 99));
+    }
+    #Checkout-button{
+        color: white;
+        background: linear-gradient(orangered, rgb(245, 70, 99));
+        padding: 15px;
+        font-size: large;
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+    }
+    #Checkout-button:hover{
+        color: black;
+        background: linear-gradient(rgb(245, 70, 99), orangered);
+    }
+    
+</style>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Your Deired Products Here..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo" id="home">
+        <img src="DIGITAL BAZAR.png" alt="Digital Bazar logo" width="200" height="100">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <i class="fa-solid fa-user"></i>
+          <a href="login.html"> <p class="header-action-label">Sign In</p></a>
+         
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <a href="cart.html">  <button class="header-action-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="header-action-label">Cart</p>
+
+          <!-- <div class="btn-badge green" aria-hidden="true">3</div> -->
+        </button> </a>
+       
+
+        <button class="header-action-btn">
+          <i class="fa-solid fa-heart"></i>
+          <p class="header-action-label">Wishlisht</p>
+
+          <!-- <div class="btn-badge" aria-hidden="true">2</div> -->
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="DIGITAL BAZAR.png" alt="logo" width="130" height="31">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html #home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./index.html #category" class="navbar-link">Categories</a>
+          </li>
+
+          <li>
+            <a href="./index.html #men" class="navbar-link">Men</a>
+          </li>
+
+          <li>
+            <a href="./index.html #women" class="navbar-link">Women</a>
+          </li>
+
+          <li>
+            <a href="./index.html #kids" class="navbar-link">Kids</a>
+          </li>
+
+          <li>
+            <a href="./index.html #Home" class="navbar-link">Home Accessories</a>
+          </li>
+
+          <li>
+            <a href="./index.html #blog" class="navbar-link">Blog</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+<!-- 
+    Cart Section
+ -->
+ <div class="Cart-heading">
+    <center><h1>CART</h1> </center> 
+ </div>
+ <br> <br>
+ <div class="container">
+ 
+ <table cellspacing="0" class="table-head">
+     <tr>
+         <th width="150">S.No:</th>
+         <th width="360">PRODUCTS</th>
+         <th width="150">PRICE</th>
+     </tr>
+     </table>
+     <table id="root" cellspacing="0"> </table>
+     <hr>
+     <table >
+     <tr>
+         <td width="150">01</td>
+         <td width="360" align="center"><img src="assets/images/women wear 03.jpg" alt="women bag" height="100px" width="100px"></td>
+         <td width="150">4999</td>
+     </tr>
+     <tr>
+         <td width="150">02</td>
+         <td width="360" align="center"><img src="assets/images/men wear p 07.png" alt="women bag" height="100px" width="100px"></td>
+         <td width="150">4999</td>
+     </tr>
+     <tr>
+         <td width="150">03</td>
+         <td width="360" align="center"><img src="assets/images/electronics 03.png" alt="women bag" height="100px" width="100px"></td>
+         <td width="150">14,999</td>
+     </tr>
+     <tr>
+         <td width="150">04</td>
+         <td width="360" align="center"><img src="assets/images/Sports 04.png" alt="women bag" height="100px" width="100px"></td>
+         <td width="150">49,999</td>
+     </tr>
+     <tr>
+         <td></td>
+         <td></td>
+         <td style="font-size: large; font-weight: bold;">Total = 74,996</td>
+     </tr>
+ </table>
+ <br> <br>
+ <div class="Checkout">
+ <center> <button id="Checkout-button">Checkout</button> </center>
+</div>
+ </div>
+ <br> <br> <br>
+
+ <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="DIGITAL BAZAR.png" alt="logo" height="50" width="200">
+          </a>
+
+          <p class="footer-text">
+            DIGITAL BAZAR is an e-commerce website where you can shop the world at your finger tips. Find everything you need & more. <br> Because shop smarter, not harder.  Digital Bazar gives you best deals on the web.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Category</p>
+          </li>
+
+          <li>
+            <a href="./index.html #women" class="footer-link">Women Wear</a>
+          </li>
+
+          <li>
+            <a href="./index.html #men" class="footer-link">Men Wear</a>
+          </li>
+
+          <li>
+            <a href="./index.html #kids" class="footer-link">Kids Clothing & Toys</a>
+          </li>
+
+          <li>
+            <a href="./index.html #Home" class="footer-link">Home Accessories</a>
+          </li>
+
+          <li>
+            <a href="./index.html #electronics" class="footer-link">Electronics</a>
+          </li>
+
+          <li>
+            <a href="./index.html #sports" class="footer-link">Sports & Outdoor</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tracking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          All &copy;  Rights Reserved By <a href="#">Farheen Shaikh</a>. 
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="payment logo.png" alt="Online payment logos" class="payment-img" height="100px" width="200px">
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

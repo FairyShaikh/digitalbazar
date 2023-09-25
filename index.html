@@ -1,0 +1,3505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Bazar</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="e-mart (1).png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">             
+
+  <!-- 
+    Icon Link 
+  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Your Deired Products Here..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo" id="home">
+        <img src="DIGITAL BAZAR.png" alt="Digital Bazar logo" width="200" height="100">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <i class="fa-solid fa-user"></i>
+          <a href="login.html"> <p class="header-action-label">Sign In</p></a>
+         
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <a href="cart.html">  <button class="header-action-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="header-action-label">Cart</p>
+
+          <!-- <div class="btn-badge green" aria-hidden="true">3</div> -->
+        </button> </a>
+       
+
+        <button class="header-action-btn">
+          <i class="fa-solid fa-heart"></i>
+          <p class="header-action-label">Wishlisht</p>
+
+          <!-- <div class="btn-badge" aria-hidden="true">2</div> -->
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="DIGITAL BAZAR.png" alt="logo" width="130" height="31">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#category" class="navbar-link">Categories</a>
+          </li>
+
+          <li>
+            <a href="#men" class="navbar-link">Men</a>
+          </li>
+
+          <li>
+            <a href="#women" class="navbar-link">Women</a>
+          </li>
+
+          <li>
+            <a href="#kids" class="navbar-link">Kids</a>
+          </li>
+
+          <li>
+            <a href="#Home" class="navbar-link">Home Accessories</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('banner.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Our Mission Is Your Happiness</p>
+
+            <h1 class="h1-title">Where Fashion <br> Meets Comfort</h1>
+<br> <br>
+            <button class="btn btn-primary">Shop Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-1.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Free Shipping</p>
+
+                <p class="service-item-text">On All Order Over Rs.50,000</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-2.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Easy Returns</p>
+
+                <p class="service-item-text">30 Day Returns Policy</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-3.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Secure Payment</p>
+
+                <p class="service-item-text">100% Secure Gaurantee</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                <img src="./assets/images/service-icon-4.svg" alt="Service icon">
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Special Support</p>
+
+                <p class="service-item-text">24/7 Dedicated Support</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category">
+        <div class="container" id="category">
+
+          <ul class="category-list">
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="man wear.jpg" alt="Sunglass & eye" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#men" class="btn btn-secondary">Men Wear</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="women wear.png" alt="Active & outdoor" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#women" class="btn btn-secondary">Women wear</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="kids wear.png" alt="Winter wear" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#kids" class="btn btn-secondary">Kids</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="home accessories.png" alt="Exclusive footwear" loading="lazy" width="510"
+                  height="600" class="w-100">
+              </figure>
+
+              <a href="#Home" class="btn btn-secondary">Home Accessories</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="Electronics.png" alt="Jewelry" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#electronics" class="btn btn-secondary">Electronics</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="sports & outdoor.png" alt="Sports cap" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#sports" class="btn btn-secondary">Sports & Outdooor</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+    
+
+      <section class="section product">
+        <!-- 
+          Men Wear
+         -->
+        <div id="men">
+        <div class="container">
+
+          <h2 class="h2 section-title">Men Wear</h2>
+
+           <!-- Alert box -->
+           <div class="box" id="box">
+            <span id="close"> <button class="close-b" onclick="closeBox()">x</button> </span>
+        <h2>Sorry! This product is out of stock</h2>
+        </div>
+        <!-- Alert End -->
+
+          <!-- <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">Best Seller</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Hot Collection</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Trendy</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">New Arrival</button>
+            </li> -->
+
+          </ul>
+
+          <ul class="product-list">
+            
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge red"> 50% off</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn" id="open" onclick="openBox()">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                   <p>Add to Cart</p> 
+                    </button>
+                   
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#"> Hot Pink Men Shirt</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="48.75">Rs. 2000</data>
+
+                    <data value="65.00">Rs. 4000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge green"> New</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn" id="open" onclick="openBox()">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Exclusive Men Jeans</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="62.00">Rs. 2999</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 03.png" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                      width="800" height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn" id="open" onclick="openBox()">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Men Sneakers</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="32.00">Rs. 4999</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn" id="open" onclick="openBox()">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Exclusive Belt for Men</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="84.00">Rs. 2999</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn" id="open" onclick="openBox()">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Men Black Shalwar Kameez</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="45.00">Rs. 3999</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Men Blue Check Shirt</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="30.00">Rs. 2500</data>
+
+                    <data value="38.00">Rs. 3500</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#"> Exclusive Men Black Watch</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="25.00">Rs. 4999</data>
+
+                    <data value="39.00">Rs. 7000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Sunglasses for Men</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="85.00">Rs. 999</data>
+
+                    <data value="99.00">Rs. 1500</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Men Comfort Sandals</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="32.00">Rs. 4999</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/men wear p 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                      height="1034" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">New</div>
+
+                  <div class="card-actions">
+
+                    <button class="card-action-btn" aria-label="Quick view">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-action-btn cart-btn">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                      <p>Add to Cart</p>
+                    </button>
+
+                    <button class="card-action-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Silver Men Ring</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data value="71.00"> Rs.1999 </data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-outline">View All Products</button>
+
+        </div>
+      </div>
+
+      <br> <br>
+       <!-- 
+          Women Wear
+         -->
+         <div id="women">
+          <div class="container">
+  
+            <h2 class="h2 section-title">Women Wear</h2>
+  
+            <ul class="product-list">
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge red"> 50% off</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#"> 3pc Women Suit</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="48.75">Rs. 4999</data>
+  
+                      <data value="65.00">Rs. 9999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge green"> New</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Blue Crystal Women Ring</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="62.00">Rs. 1999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 03.jpg" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                        width="800" height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Exclusive Women Bag</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="32.00">Rs. 4999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Copper Women Heels</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="84.00">Rs. 3999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Matt Lipstick</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="45.00">Rs. 999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Long Maxie For Women</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="30.00">Rs. 4999</data>
+  
+                      <data value="38.00">Rs. 5500</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#"> Exclusive Women Bracelet Watch</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="25.00">Rs. 3999</data>
+  
+                      <data value="39.00">Rs. 5000</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Regular Sandals for Women</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="85.00">Rs. 999</data>
+  
+                      <data value="99.00">Rs. 1400</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Women Pro Concealer</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="32.00">Rs. 999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/women wear 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge green">New</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Regular Kurti With Palazzo</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="71.00"> Rs.2500 </data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <button class="btn btn-outline">View All Products</button>
+  
+          </div>
+         </div>
+
+          <br> <br>
+       <!-- 
+          Kids Wear
+         -->
+         <div id="kids">
+          <div class="container">
+  
+            <h2 class="h2 section-title">Kids Clothing & Toys</h2>
+  
+            <ul class="product-list">
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge red"> 50% off</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#"> Blue Maxie for Baby Girl</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="48.75">Rs. 4999</data>
+  
+                      <data value="65.00">Rs. 5999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge green"> New</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Baby Boy Jeans Shirt</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="62.00">Rs. 3999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 03.png" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                        width="800" height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Kids School Shoes</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="32.00">Rs. 1999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Rainbow Rings Tower Toy</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="84.00">Rs. 899</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">3pc Suit for Baby Girl</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="45.00">Rs. 2999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Boys Shalwar Kameez</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="30.00">Rs. 2999</data>
+  
+                      <data value="38.00">Rs. 3500</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">6pcs Cute Pink Rings</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="25.00">Rs. 299</data>
+  
+                      <data value="39.00">Rs. 499</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/Kids 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Cute Pink Car for Kids</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="85.00">Rs. 5999</data>
+  
+                      <data value="99.00">Rs. 7999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Exclusive Tablet for Kids </a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="32.00">Rs. 1999</data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="product-card">
+  
+                  <figure class="card-banner">
+  
+                    <a href="#">
+                      <img src="./assets/images/kids 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                        height="1034" class="w-100">
+                    </a>
+  
+                    <div class="card-badge green">New</div>
+  
+                    <div class="card-actions">
+  
+                      <button class="card-action-btn" aria-label="Quick view">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+  
+                      <button class="card-action-btn cart-btn">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+  
+                        <p>Add to Cart</p>
+                      </button>
+  
+                      <button class="card-action-btn" aria-label="Add to Whishlist">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                    </div>
+  
+                  </figure>
+  
+                  <div class="card-content">
+                    <h3 class="h4 card-title">
+                      <a href="#">Cute Pink Kurti for Baby Girl</a>
+                    </h3>
+  
+                    <div class="card-price">
+                      <data value="71.00"> Rs. 2999 </data>
+                    </div>
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <button class="btn btn-outline">View All Products</button>
+  
+          </div>
+         </div>
+
+          <br> <br>
+          <!-- 
+            Home Accessories
+            -->
+            <div id="Home">
+             <div class="container">
+     
+               <h2 class="h2 section-title">Home Accessories</h2>
+     
+               <ul class="product-list">
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/home 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge red"> 50% off</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#"> Tabletop Water Fountain</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="48.75">Rs. 4999</data>
+     
+                         <data value="65.00">Rs. 9999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge green"> New</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Full Size Dish Rack</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="62.00">Rs. 6999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 03.png" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                           width="800" height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">5 Tier Corner Shelves</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="32.00">Rs. 1999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">13 pcs Cooking Utensils Set</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="84.00">Rs. 3999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Chopper With Different Cutters</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="45.00">Rs. 1999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Knife Stand For Kitchen</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="30.00">Rs. 999</data>
+     
+                         <data value="38.00">Rs. 1999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Spin Mop with 3 Different Mop Heads</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="25.00">Rs. 4999</data>
+     
+                         <data value="39.00">Rs. 6050</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">16pc Dinner Set</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="85.00">Rs. 2999</data>
+     
+                         <data value="99.00">Rs. 2500</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Wall Clock</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="32.00">Rs. 1999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/Home 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge green">New</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Table Lamp with USB</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="71.00"> Rs. 2999 </data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+               </ul>
+     
+               <button class="btn btn-outline">View All Products</button>
+     
+             </div>
+            </div>
+
+             <br> <br>
+          <!-- 
+             Electronics
+            -->
+            <div id="electronics">
+             <div class="container">
+     
+               <h2 class="h2 section-title">Electronics</h2>
+     
+               <ul class="product-list">
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge red"> 50% off</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#"> Black AirPods</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="48.75">Rs. 3999</data>
+     
+                         <data value="65.00">Rs. 7999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge green"> New</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">HP 2023 Newest Laptop</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="62.00">Rs. 90,000</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 03.png" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                           width="800" height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">
+                          PHILIPS A4216 Wireless Headphones</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="32.00">Rs. 14,999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Wireless 15W Fast Charger</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="84.00">Rs. 3999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">SAMSUNG Galaxy S23</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="45.00">Rs. 84,999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Exclusive Mouse for PC</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="30.00">Rs. 3999</data>
+     
+                         <data value="38.00">Rs. 4999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">QualGear VR Glasses</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="25.00">Rs. 8999</data>
+     
+                         <data value="39.00">Rs. 9090</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#"> 24-inch Curved Gaming Monitor</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="85.00">Rs. 1,50,000</data>
+     
+                         <data value="99.00">Rs.  1,80,000</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Xbox One Controller</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="32.00">Rs. 14,999</data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+                 <li>
+                   <div class="product-card">
+     
+                     <figure class="card-banner">
+     
+                       <a href="#">
+                         <img src="./assets/images/electronics 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                           height="1034" class="w-100">
+                       </a>
+     
+                       <div class="card-badge green">New</div>
+     
+                       <div class="card-actions">
+     
+                         <button class="card-action-btn" aria-label="Quick view">
+                           <ion-icon name="eye-outline"></ion-icon>
+                         </button>
+     
+                         <button class="card-action-btn cart-btn">
+                           <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+     
+                           <p>Add to Cart</p>
+                         </button>
+     
+                         <button class="card-action-btn" aria-label="Add to Whishlist">
+                           <ion-icon name="heart-outline"></ion-icon>
+                         </button>
+     
+                       </div>
+     
+                     </figure>
+     
+                     <div class="card-content">
+                       <h3 class="h4 card-title">
+                         <a href="#">Smartwatch with Daily Readiness</a>
+                       </h3>
+     
+                       <div class="card-price">
+                         <data value="71.00"> Rs. 29,999 </data>
+                       </div>
+                     </div>
+     
+                   </div>
+                 </li>
+     
+               </ul>
+     
+               <button class="btn btn-outline">View All Products</button>
+     
+             </div>
+            </div>
+      
+
+            <br> <br>
+            <!-- 
+               Sports & Outdoor
+              -->
+              <div id="sports">
+               <div class="container">
+       
+                 <h2 class="h2 section-title">Sports & Outdoor</h2>
+       
+                 <ul class="product-list">
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 01.png" alt="Varsi Leather Bag" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-badge red"> 50% off</div>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#"> Kids Basketball Set</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="48.75">Rs. 7999</data>
+       
+                           <data value="65.00">Rs. 8300</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 02.png" alt="Fit Twill Shirt for Woman" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-badge green"> New</div>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">
+                            2-in-1 Cross Trainer Elliptical Bike</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="62.00">Rs. 69,999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 03.png" alt="Grand Atlantic Chukka Boots" loading="lazy"
+                             width="800" height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">Portable Table Tennis Table</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="32.00">Rs. 29,999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 04.png" alt="Women's Faux-Trim Shirt" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">SG Sports Team Cricket Kit</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="84.00">Rs. 49,999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 05.png" alt="Soft Touch Interlock Polo" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#"> Classic Mini Basketball  </a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="45.00">Rs. 4999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 06.png" alt="Casmart Smart Watch" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#"> Exercise Ball with Pump</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="30.00">Rs. 4999</data>
+       
+                           <data value="38.00">Rs. 5500</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 07.png" alt="Casmart Smart Glass" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">Adjustable Jump Rope with Counter Foam</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="25.00">Rs. 9999</data>
+       
+                           <data value="39.00">Rs. 9000</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 08.png" alt="Cotton Shirt for Men" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">Treadmill Walking Pad </a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="85.00">Rs. 89,999</data>
+       
+                           <data value="99.00">Rs. 91,999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 09.png" alt="Double-breasted Blazer" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">Dumbbell for Exercise </a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="32.00">Rs. 4999</data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                   <li>
+                     <div class="product-card">
+       
+                       <figure class="card-banner">
+       
+                         <a href="#">
+                           <img src="./assets/images/Sports 10.png" alt="Ribbed Cotton Bodysuits" loading="lazy" width="800"
+                             height="1034" class="w-100">
+                         </a>
+       
+                         <div class="card-badge green">New</div>
+       
+                         <div class="card-actions">
+       
+                           <button class="card-action-btn" aria-label="Quick view">
+                             <ion-icon name="eye-outline"></ion-icon>
+                           </button>
+       
+                           <button class="card-action-btn cart-btn">
+                             <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+       
+                             <p>Add to Cart</p>
+                           </button>
+       
+                           <button class="card-action-btn" aria-label="Add to Whishlist">
+                             <ion-icon name="heart-outline"></ion-icon>
+                           </button>
+       
+                         </div>
+       
+                       </figure>
+       
+                       <div class="card-content">
+                         <h3 class="h4 card-title">
+                           <a href="#">2 Player Badminton Set</a>
+                         </h3>
+       
+                         <div class="card-price">
+                           <data value="71.00"> Rs. 8999 </data>
+                         </div>
+                       </div>
+       
+                     </div>
+                   </li>
+       
+                 </ul>
+       
+                 <button class="btn btn-outline">View All Products</button>
+       
+               </div>
+              </div>
+        </div>
+      </section>
+      
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog">
+        <div class="container" id="blog">
+
+          <h2 class="h2 section-title">Latest fashion news</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" alt="Worthy Cyber Monday Fashion From Casmart" loading="lazy"
+                      width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">Fashion</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="2021-03-31">31 July 2023</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Worthy Monday Fashion From DIGITAL BAZAR</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" alt="Holiday Home Decoration I’ve Recently Ordered"
+                      loading="lazy" width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">Fashion</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="2021-03-31">2nd Aug 2023</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#"> Home Decoration I’ve Recently Ordered</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" alt="Unique Ideas for Fashion You Haven’t heard yet"
+                      loading="lazy" width="1020" height="700" class="w-100">
+                  </a>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="folder-open-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">Fashion</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <a href="#" class="card-meta-link">
+                        <time datetime="2021-03-31">23 Aug 2023</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Unique Ideas for Fashion You Haven’t heard yet</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+        <div class="container">
+
+          <div class="newsletter-card" style="background-image: url('./assets/images/newsletter-bg.png')">
+
+            <h2 class="card-title">Subscribe Newsletter</h2>
+
+            <p class="card-text">
+              Enter your email below to be the first to know about new collections and product launches.
+            </p>
+
+            <form action="" class="card-form">
+
+              <div class="input-wrapper">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <input type="email" name="emal" placeholder="Enter your email" required class="input-field">
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                <span>Subscribe</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="DIGITAL BAZAR.png" alt="logo" height="50" width="200">
+          </a>
+
+          <p class="footer-text">
+            DIGITAL BAZAR is an e-commerce website where you can shop the world at your finger tips. Find everything you need & more. <br> Because shop smarter, not harder.  Digital Bazar gives you best deals on the web.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Company</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Payment Type</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Awards Winning</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">World Media Partner</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Become an Agent</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Category</p>
+          </li>
+
+          <li>
+            <a href="#women" class="footer-link">Women Wear</a>
+          </li>
+
+          <li>
+            <a href="#men" class="footer-link">Men Wear</a>
+          </li>
+
+          <li>
+            <a href="#kids" class="footer-link">Kids Clothing & Toys</a>
+          </li>
+
+          <li>
+            <a href="#Home" class="footer-link">Home Accessories</a>
+          </li>
+
+          <li>
+            <a href="#electronics" class="footer-link">Electronics</a>
+          </li>
+
+          <li>
+            <a href="#sports" class="footer-link">Sports & Outdoor</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help & Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dealers & Agents</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Return Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping & Delivery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Order Tracking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">List of Shops</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          All &copy;  Rights Reserved By <a href="#">Farheen Shaikh</a>. 
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+    
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <div class="payment">
+          <p class="payment-title">We Support</p>
+
+          <img src="payment logo.png" alt="Online payment logos" class="payment-img" height="100px" width="200px">
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

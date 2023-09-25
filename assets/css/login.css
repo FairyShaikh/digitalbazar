@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    height: 100vh;
+    background: url(../images/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);
+}
+form{
+    margin-right: 50%;
+    border-radius: 30px;
+    background-color: white;
+    border-top: 6px solid hsl(356, 65%, 63%);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    background-position: center;
+    left: 490px;
+    top: 90px;
+
+   
+}
+.row g-3, h1, label{
+    color: black;
+}
+.form-label{
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: x-large;
+}
+.row g-3, input{
+    margin-left: 90%;
+    margin-right: 90%;
+    
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#link:hover{
+    color: orangered;
+}
+.col-6, #btn{
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+#para{
+    color: black;
+    font-size: medium;
+}
